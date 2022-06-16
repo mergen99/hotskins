@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.header {
+  width: 90rem;
+  height: 4.5rem;
+  display: flex;
+  &___icon {
+    font-family: "Rubik";
+    display: flex;
+    &__iconic {
+      margin-left: 6.75rem;
+      margin-top: 1rem;
+      background: white;
+      width: 2.75rem;
+      height: 2.438rem;
+    }
+    &__name {
+      font-style: normal;
+      font-weight: 700;
+      margin-top: 1.325rem;
+      margin-left: 0.875rem;
+      width: 7.125rem;
+      height: 1.25rem;
+      color: white;
+      font-size: 1.6rem;
+      &_text {
+        font-style: normal;
+        font-weight: 400;
+        opacity: 0.85;
+      }
+    }
+  }
+  &___contacts {
+    display: flex;
+    margin-top: 1.75rem;
+    margin-left: 8.75rem;
+    font-family: "Rubik";
+    font-weight: 500;
+    &__help {
+      text-decoration: none;
+      color: white;
+      font-size: medium;
+    }
+    &__contact {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: white;
+    }
+  }
+  &___language {
+    font-family: "Rubik";
+    display: flex;
+    margin-left: 41.25rem;
+    margin-top: 1.325rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 35px;
+    border: 2px solid grey;
+    &__flag {
+      margin-top: 0.75rem;
+      margin-left: 0.75rem;
+      border-radius: 20px;
+    }
+    &__changer{
+      background-color: rgba(32, 34, 42, 1);
+      border: none;
+      color:white;
+    }
+  }
+  &___window {
+    position: absolute;
+    right: 5.4rem;
+    top: 4.5rem;
+    width: 6.1rem;
+    height: 5rem;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: rgba(32, 34, 42, 1);
+    &__english {
+      &_icon {
+        position: absolute;
+        left: 0.5rem;
+        top: 0.3rem;
+        border-radius: 50px;
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+      }
+      &_name {
+        font-family: "Rubik";
+        position: absolute;
+        color: white;
+        font-weight: 400;
+        left: 2.5rem;
+        top: 0.45rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

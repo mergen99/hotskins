@@ -1,0 +1,33 @@
+.badge {
+  border-radius: 5px;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px;
+  &--yellow {
+    border: solid yellow;
+  }
+  &--red {
+    border: solid rgba(237, 66, 43, 1);
+  }
+  &--pink {
+    border: solid rgba(207, 48, 156, 1);
+  }
+  &--purple {
+    border: solid purple;
+  }
+  &--blue {
+    border: solid blue;
+  }
+  &--light_blue {
+    border: solid rgb(13, 195, 255);
+  }
+  &--grey {
+    border: solid grey;
+  }
+}
+.bazaranet {
+  width: 23.875rem;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}

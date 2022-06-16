@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.item {
+  font-family: "Rubik";
+  margin-right: 1rem;
+  position: relative;
+  width: 7.5rem;
+  height: 8.25rem;
+  border-radius: 1rem;
+  background-color: rgba(97, 145, 234, 0.1);
+  &___skin {
+    margin-left: 1rem;
+    margin-top: 0.75rem;
+    &__active{
+      margin-left: 0;
+    }
+  }
+  &___price {
+    position: absolute;
+    top: 5.75rem;
+    left: 1.469rem;
+    font-weight: 500;
+    color: white;
+  }
+  &___color {
+    position: absolute;
+    bottom: 0;
+    left: 2.95rem;
+    border-radius: 0.313rem 0.313rem 0 0;
+    width: 1.5rem;
+    border-top: 0.75rem;
+    border-bottom: 1.5rem;
+    height: 0.25rem;
+    &--yellow {
+      background-color: yellow;
+    }
+    &--blue {
+      background-color: blue;
+    }
+    &--red {
+      background-color: rgba(237, 66, 43, 1);
+    }
+    &--pink {
+      background-color: rgba(207, 48, 156, 1);
+    }
+    &--green {
+      background-color: green;
+    }
+  }
+}
+
+.item2 {
+  font-family: "Rubik";
+  margin-right: 1rem;
+  position: relative;
+  width: 7.5rem;
+  height: 8.25rem;
+  border-radius: 1rem;
+  background-color: none;
+  border: 2px dashed rgba(61, 69, 84, 1);
+  &___skin2 {
+    margin-left: 1rem;
+    margin-top: 0.75rem;
+  }
+  &___price2 {
+    position: absolute;
+    top: 5.75rem;
+    left: 1.469rem;
+    font-weight: 500;
+    color: white;
+  }
+  &___color2 {
+    position: absolute;
+    bottom: 0;
+    left: 2.95rem;
+    border-radius: 0.313rem 0.313rem 0 0;
+    width: 1.5rem;
+    border-top: 0.75rem;
+    border-bottom: 1.5rem;
+    height: 0.25rem;
+    &--yellow {
+      background-color: yellow;
+    }
+    &--blue {
+      background-color: blue;
+    }
+    &--red {
+      background-color: rgba(237, 66, 43, 1);
+    }
+    &--pink {
+      background-color: rgba(207, 48, 156, 1);
+    }
+    &--green {
+      background-color: green;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+.main {
+  font-family: "Rubik";
+  width: 90rem;
+  height: 12.75rem;
+  color: white;
+  position: relative;
+  &___name {
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 6.75rem;
+    font-weight: 500;
+    font-size: 2rem;
+    height: 3.5rem;
+    p {
+      margin: 0%;
+      margin-top: 0.4rem;
+    }
+  }
+  &___name2 {
+    width: 19.625rem;
+    margin-left: 6.75rem;
+    font-weight: 500;
+    font-size: 1rem p {
+      width: 19.625rem;
+    }
+  }
+  &___search {
+    margin-left: 22.313rem;
+    display: flex;
+    width: 24.5rem;
+    height: 3rem;
+    border-radius: 1.25rem;
+    border: 0.063rem solid grey;
+    &__icon {
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+    &__name {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      width: 8.313rem;
+      height: 1rem;
+      background: none;
+      border: none;
+      color: white;
+    }
+  }
+  &___color {
+    display: flex;
+    margin-top: 2.625rem;
+    &__text {
+      width: 4.5rem;
+      margin-left: 6.75rem;
+    }
+    &__logo {
+      width: 2rem;
+      height: 2rem;
+      img {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 0.25rem;
+        margin-top: 0.5rem;
+      }
+    }
+    &__list {
+      display: flex;
+      &_count {
+        font-weight: 400;
+        margin-left: 0.75rem;
+        margin-top: 0.2rem;
+        margin-right: 0.8rem;
+        color: grey;
+      }
+    }
+  }
+  &___switch {
+    margin-left: 29.438rem;
+    margin-top: 0.9rem;
+    display: flex;
+    &__item {
+      position: absolute;
+      top: 9.47rem;
+      right: 21.8rem;
+      z-index: 0;
+    }
+   /*  &__item:active{
+      right: 20.5rem;
+    } */
+  }
+  &___line {
+    margin-left: 6.75rem;
+    width: 76.5rem;
+    height: 0;
+    /* height: 0.0625rem; */
+    border: 0.8px solid grey;
+  }
+  &___window {
+    position: absolute;
+    border: 1px solid rgba(61, 69, 84, 1);
+    border-radius: 8px;
+    width: 24.5rem;
+    height: 13rem;
+    left: 58.75rem;
+    background-color: rgba(32, 34, 42, 1);
+    z-index: 1;
+    &__item {
+      z-index: 2;
+      display: flex;
+      &_img {
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        background-color: rgba(39, 46, 59, 1);
+        img {
+          width: 2.3rem;
+          height: 2.3rem;
+        }
+      }
+      &_name {
+        margin-left: 1.2rem;
+        margin-top: 1.9rem;
+        z-index: 2;
+        color: white;
+        font-weight: 400;
+      }
+    }
+  }
+}
