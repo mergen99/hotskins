@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hotskins/static/css/main.7e808149.css",
+    "main.js": "/hotskins/static/js/main.21d82cb0.js",
+    "static/js/787.7d4c94d6.chunk.js": "/hotskins/static/js/787.7d4c94d6.chunk.js",
+    "static/media/bara.gif": "/hotskins/static/media/bara.338864946447d81f97f9.gif",
+    "index.html": "/hotskins/index.html",
+    "main.7e808149.css.map": "/hotskins/static/css/main.7e808149.css.map",
+    "main.21d82cb0.js.map": "/hotskins/static/js/main.21d82cb0.js.map",
+    "787.7d4c94d6.chunk.js.map": "/hotskins/static/js/787.7d4c94d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e808149.css",
+    "static/js/main.21d82cb0.js"
+  ]
+}
